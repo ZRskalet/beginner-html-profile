@@ -1,0 +1,372 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Super Guitar</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    </head>
+      <body>
+            <header id="header">
+              <div class="logo">
+              <img id="header-img" 
+                  src="https://www.clipartmax.com/png/small/162-1627560_guitar-analog-deliciousness-rock-band-guitar-logo.png"
+                  alt="guitar logo"
+                  loading="lazy"
+                  />
+                  <h1>SUPER GUITAR</h1>
+                  </div>
+                  <nav id="nav-bar">
+                    <ul>
+                      <li><a class="nav-link" href="#features">
+                        Features</a></li>
+                      <li><a class="nav-link" href="#how-it-works">
+                        How It Works</a></li>
+                      <li><a class="nav-link" href="#pricing">
+                        Pricing</a></li>
+                    </ul>
+                  </nav>  
+            </header>
+        <main>
+          <form id="form" method="post" 
+          action="https://www.freecodecamp.com/email-submit">
+            <section>
+              <h2>Handcrafted, home-made masterpieces</h2>
+                <div>
+                  <input type="email" 
+                          name="email" 
+                          id="email" 
+                          placeholder="Enter your email address"
+                          required>
+                </div>
+                <input 
+                  id="submit" 
+                  type="submit" 
+                  value="GET STARTED">   
+            </section>
+          </form>
+        <section class="container">
+          <section id="features">
+            <div class="premium">
+             <i class="fa fa-3x fa-fire"></i>
+        <article>
+              <h2>Premium Materials</h2>
+              <p>Our guitars use the shiniest wood which is sourced locally. This will increase the longevity of your purchase.</p>
+              </article>
+            </div>
+            <div class="fast">
+              <i class="fa fa-3x fa-truck"></i>
+              <article>
+              <h2>Fast Shipping</h2>
+              <p>We make sure you recieve your guitar as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+              </article>
+            </div>
+            <div class="quality">
+              <i class="fa fa-3x fa-battery-full"></i>
+              <article>
+              <h2>Quality Assurance</h2>
+              <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+              </article>
+            </div>
+          </section>
+        </section>
+
+          <section id="how-it-works">
+            <iframe id="video"
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/DSBBEDAGOTc?si=z8Vj1Kled3onAyIF"
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+            </iframe>
+            </section>
+
+          <section id="pricing">
+            <div class="product-type">
+              <div class="type-name">
+                <h3>SUPER GUITAR ANGEL</h3>
+              </div>
+              <div class="type-price">
+                <p>$100,000</p>
+              </div>
+              <div class="type-desc">
+                <ul>
+                  <li>good</li>
+                  <li>cool</li>
+                  <li>smart</li>
+                  <li>nice</li>
+                  <li>sound</li>
+                </ul>
+              </div>
+              <div class="go-button">
+              <input 
+                type="submit" 
+                class="select" 
+                value="SELECT">
+              </div>               
+            </div>
+
+            <div class="product-type">
+              <div class="type-name">
+                <h3>SUPER GUITAR DEVIL</h3>
+              </div>
+              <div class="type-price">
+                <p>$200,000</p>
+              </div>
+              <div class="type-desc">
+              <ul>
+                <li>epic</li>
+                <li>legend</li>
+                <li>wow nice sound</li>
+              </ul>
+              </div>
+              <div class="go-button">
+              <input 
+                type="submit" 
+                class="select" 
+                value="SELECT">
+              </div>
+            </div>
+
+            <div class="product-type">
+              <div class="type-name">
+                <h3>SUPER GUITAR GOD</h3>
+              </div>
+              <div class="type-price">
+                <p>$300,000</p>
+              </div>
+              <div class="type-desc">
+                <ul>
+                  <li>the best of</li>
+                  <li>the best of</li>
+                  <li>the best of the best</li>
+                </ul>
+              </div>
+              <div class="go-button">
+                <input 
+                type="submit" 
+                class="select" 
+                value="SELECT">
+              </div>
+            </div>          
+            </section>
+        </main>
+      </body>     
+  </html>
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  
+}
+
+header {
+  width:100%;
+  height: 80px;
+  background-color: #FAEBD7;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.logo{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+}
+
+#header-img {
+  height: 100%;
+  padding: 0.4rem;
+}
+
+
+#nav-bar ul {
+width: 35vw;
+list-style-type: none;
+text-align: center;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+a {
+text-decoration: none;
+}
+
+
+.container{
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  
+}
+
+.premium {
+  display:flex;
+}
+
+.fast {
+  display:flex;
+}
+
+.quality {
+  display:flex;
+}
+
+#features i{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+  color: green;
+  /*border: 1px solid;*/
+}
+
+#features article{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+  /*border: 1px solid;*/
+}
+
+form {
+  text-align: center;
+  margin-top: 7rem ;
+}
+
+form h2{
+  margin-bottom: 20px
+}
+
+#submit{
+  margin: 20px;
+  background-color: orange;
+  font-weight: bold; 
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#how-it-works{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px
+}
+
+#pricing{
+display: grid;
+grid-template-columns: repeat(3, auto);
+grid-template-rows: 100%;
+gap: 2rem;
+text-align: center;
+padding: 1rem;
+max-width:1000px;
+width: 100%;
+margin: 0 auto;
+height: 300px;
+/*border: 1px solid*/
+}
+
+.product-type{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.type-name{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: lightgreen;
+}
+
+.type-price{
+  /*border: 1px solid black;*/
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 2rem;
+
+}
+
+.go-button {
+  /*border: 1px solid;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 100%;
+}
+
+.select{
+  border-radius: 3px;
+  height: 50px;
+  width: 80px;
+  background-color: orange;
+  font-weight: bold;
+
+}
+
+.product-type ul{
+  list-style-type: none;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  #pricing{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, auto);
+    /*border: 4px solid;*/
+    gap:1rem;
+    width: 100%;
+    max-width:300px;
+    height: 800px;    
+}
+}
+
+@media only screen and (max-width: 550px) {
+
+  #features i{
+    display: none;
+  }
+
+  #features article{
+    text-align:center;
+    width: 100%
+}
+
+#nav-bar ul{
+  flex-direction: column;
+}
+
+
+}
+
+** end of undefined **
+
